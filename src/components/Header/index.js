@@ -10,26 +10,26 @@ const Header = props => {
   }
 
   return (
-    <nav className="navbar-container">
+    <nav className="navbar_container">
       <div>
-        <Link to="/" className="link-item">
+        <Link to="/" className="link_items">
           <img
             src="https://assets.ccbp.in/frontend/react-js/logo-img.png"
             alt="website logo"
-            className="website-logo"
+            className="website_logo"
           />
         </Link>
       </div>
       <ul className="header-list-items">
-        <Link to="/" className="link-item">
+        <Link to="/" className="link_items">
           <li className="home-heading home">Home</li>
         </Link>
-        <Link to="/jobs" className="link-item">
+        <Link to="/jobs" className="link_items">
           <li className="jon-heading home">Jobs</li>
         </Link>
       </ul>
       <div>
-        <button type="button" className="logout-button" onClick={onClickLogout}>
+        <button type="button" className="logout_btn" onClick={onClickLogout}>
           Logout
         </button>
       </div>

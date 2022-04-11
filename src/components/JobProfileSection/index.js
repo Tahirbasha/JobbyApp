@@ -3,7 +3,7 @@ import Loader from 'react-loader-spinner'
 import {BsSearch} from 'react-icons/bs'
 import Cookies from 'js-cookie'
 import JobCard from '../JobCard'
-import JobsFilterGroup from '../JobsFilterGroup'
+import JobsFilters from '../JobsFilters'
 import './index.css'
 
 const employmentTypesList = [
@@ -235,7 +235,7 @@ class JobProfileSection extends Component {
     return (
       <div className="job-details-container">
         <div className="render-group-items">
-          <JobsFilterGroup
+          <JobsFilters
             employmentTypesList={employmentTypesList}
             salaryRangesList={salaryRangesList}
             changeEmploymentType={this.changeEmploymentType}

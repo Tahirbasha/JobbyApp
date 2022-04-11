@@ -1,7 +1,7 @@
 import ProfileDetails from '../ProfileDetails'
 import './index.css'
 
-const JobsFilterGroup = props => {
+const JobsFilters = props => {
   const getEmploymentTypeList = () => {
     const {employmentTypesList} = props
 
@@ -82,4 +82,4 @@ const JobsFilterGroup = props => {
   )
 }
 
-export default JobsFilterGroup
+export default JobsFilters

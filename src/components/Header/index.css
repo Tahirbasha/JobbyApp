@@ -1,10 +1,10 @@
-.navbar-container {
+.navbar_container {
   background-color: #202020;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.website-logo {
+.website_logo {
   width: 150px;
   height: 40px;
   margin-top: 10px;
@@ -22,7 +22,7 @@
   font-family: 'Roboto';
   font-weight: 500;
 }
-.logout-button {
+.logout_btn {
   background-color: #4f46e5;
   padding: 10px;
   border-radius: 6px;
@@ -36,6 +36,6 @@
 .jon-heading {
   margin-left: 40px;
 }
-.link-item {
+.link_items {
   text-decoration: none;
 }

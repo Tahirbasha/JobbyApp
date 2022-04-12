@@ -45,6 +45,10 @@ class ProfileDetails extends Component {
         profileList: profileData,
         apiStatus: apiStatusConstants.success,
       })
+    } else {
+      this.setState({
+        apiStatus: apiStatusConstants.failure,
+      })
     }
   }
 
@@ -82,6 +86,7 @@ class ProfileDetails extends Component {
 
   render() {
     const {apiStatus} = this.state
+    console.log(apiStatus)
 
     switch (apiStatus) {
       case apiStatusConstants.success:

@@ -111,7 +111,7 @@ class JobItemDetails extends Component {
       skills,
     } = jobItemList
     const {description, imageUrl} = lifeAtCompany
-
+    console.log(skills)
     return (
       <div className="full-job-item-container">
         <div className="job-items-container">
@@ -154,7 +154,7 @@ class JobItemDetails extends Component {
           <h1 className="skill-heading">Skills</h1>
           <ul className="skill-container">
             {skills.map(eachSkill => (
-              <SkillsCard key={eachSkill.id} skillDetails={eachSkill} />
+              <SkillsCard key={eachSkill.name} skillDetails={eachSkill} />
             ))}
           </ul>
           <h1 className="life-company-heading">Life at company</h1>
